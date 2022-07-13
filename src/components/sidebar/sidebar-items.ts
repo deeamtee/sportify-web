@@ -1,38 +1,46 @@
+import CirclesFour from './resources/CirclesFour.svg';
+import Barbell from './resources/Barbell.svg';
+import Brain from './resources/Brain.svg';
+import Leaf from './resources/Leaf.svg';
+import Crosshair from './resources/Crosshair.svg';
+import Gear from './resources/Gear.svg';
+
 export const sidebarItems = [
     {
         name: 'Новости',
         route: '/feed',
         id: 'feed',
-        icon: '',
+        icon: CirclesFour,
     },
     {
         name: 'Тренировки',
         route: '/trainings',
         id: 'trainings',
-        icon: '',
+        icon: Barbell,
     },
     {
         name: 'Питание',
         route: '/nutrition',
         id: 'nutrition',
-        icon: '',
+        icon: Leaf,
     },
     {
         name: 'Цели',
         route: '/targets',
-        icon: '',
         id: 'targets',
+        icon: Crosshair,
     },
     {
         name: 'Разум',
         route: '/mind',
         id: 'mind',
-        icon: '',
+        icon: Brain,
     },
     {
         name: 'Настройки',
         route: '/settings',
         id: 'settings',
-        icon: '',
+        icon: Gear,
     },
 ];
+export default sidebarItems;

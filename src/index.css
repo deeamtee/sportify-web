@@ -5,4 +5,12 @@
 
 body {
     margin: 0;
+    font-family: 'Montserrat', 'Helvetica', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../resources/fonts/Montserrat-Medium.ttf');
 }

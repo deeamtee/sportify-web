@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { sidebarItems } from '../../constants/sidebar';
+import { sidebarItems } from './sidebar-items';
 import SidebarItem from './item';
 import { Root } from './sidebar.styles';
 
