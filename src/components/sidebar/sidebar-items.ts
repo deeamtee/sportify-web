@@ -1,9 +1,4 @@
-import CirclesFour from './resources/CirclesFour.svg';
-import Barbell from './resources/Barbell.svg';
-import Brain from './resources/Brain.svg';
-import Leaf from './resources/Leaf.svg';
-import Crosshair from './resources/Crosshair.svg';
-import Gear from './resources/Gear.svg';
+import { Barbell, Brain, CirclesFour, Crosshair, Gear, Leaf } from './resources';
 
 export const sidebarItems = [
     {

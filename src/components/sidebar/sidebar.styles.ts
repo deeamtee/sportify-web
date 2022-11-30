@@ -20,6 +20,6 @@ export const Item = styled.div<{active: boolean}>`
     background: ${({ active }) => active ? tokens.main.darkBlue : tokens.main.white };
 `;
 
-export const Icon = styled.img`
+export const Icon = styled.div`
 margin-right: 20px;
 `;

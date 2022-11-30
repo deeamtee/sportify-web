@@ -8,17 +8,21 @@ interface Props {
     id: string;
     name: string;
     route: Route;
-    icon?: React.ReactNode | string;
+    icon: (props: React.SVGProps<SVGElement>) => React.ReactElement;
     onClick: (event: React.MouseEvent) => void;
 }
 
 const SidebarItem: React.FC<Props> = ({ name, id, icon, onClick }) => {
     const location = useLocation();
     const currentPath = location.pathname.split('/')[1];
+    const active = currentPath === id;
+    const IconSVG = icon;
 
     return (
-        <Item active={currentPath === id} onClick={onClick}>
-            <Icon src={icon} />
+        <Item active={active} onClick={onClick}>
+            <Icon>
+                <IconSVG color={active ? '#ffffff' : '#4E5D78'} />
+            </Icon>
             {name}
         </Item>
     );
