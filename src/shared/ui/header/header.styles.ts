@@ -7,6 +7,7 @@ export const Root = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0px 0px 2px 0px;
 `
 
 export const Logo = styled.img`

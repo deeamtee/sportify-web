@@ -1,5 +1,5 @@
-import Sidebar from '../components/sidebar/sidebar';
-import Header from '../components/header/header';
+import Sidebar from '../shared/ui/sidebar/sidebar';
+import Header from '../shared/ui/header/header';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`

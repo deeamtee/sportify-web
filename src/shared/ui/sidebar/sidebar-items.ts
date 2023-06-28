@@ -1,12 +1,19 @@
-import { Barbell, Brain, CirclesFour, Crosshair, Gear, Leaf } from './resources';
+import {Barbell, Brain, CirclesFour, CircleWavyCheck, Crosshair, Gear, Leaf} from './resources';
 
 export const sidebarItems = [
+    {
+        name: 'Прогресс',
+        route: '/progress',
+        id: 'progress',
+        icon: CircleWavyCheck,
+    },
     {
         name: 'Новости',
         route: '/feed',
         id: 'feed',
         icon: CirclesFour,
     },
+
     {
         name: 'Тренировки',
         route: '/trainings',
