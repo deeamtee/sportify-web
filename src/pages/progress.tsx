@@ -1,7 +1,7 @@
 import {Card} from "../shared/ui/card";
 
 const Progress = () => {
-    return <Card><div>Progress</div></Card>;
+    return <div className='w-full'><Card>Progress content</Card></div>;
 };
 
 export default Progress;

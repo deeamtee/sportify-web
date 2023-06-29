@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
     --prime-color: #fff;
     --cyan: #73cbd0;

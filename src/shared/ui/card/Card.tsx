@@ -1,8 +1,6 @@
-import styles from './Card.module.css';
-
 const Card = ({children}) => {
     return (
-        <div className={styles.card}>
+        <div className={"p-8 bg-white shadow-sm shadow-emerald-700 rounded"}>
             {children}
         </div>
     )
