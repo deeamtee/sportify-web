@@ -1,19 +1,15 @@
-import Sidebar from '../shared/ui/sidebar/sidebar';
-import Header from '../shared/ui/header/header';
-import styled from 'styled-components';
+import { Sidebar } from '../shared/ui/sidebar';
+import { Header } from '../widgets/header';
 
-const Wrapper = styled.div`
-    display: flex;
-`;
 
 const main = (Component) => () => {
     return (
         <>
             <Header />
-            <Wrapper>
+            <div className='flex'>
                 <Sidebar />
                 <Component />
-            </Wrapper>
+            </div>
         </>
     );
 };

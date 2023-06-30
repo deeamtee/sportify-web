@@ -18,3 +18,10 @@ body {
     font-weight: 400;
     src: url('../../resources/fonts/Montserrat-Medium.ttf');
 }
+
+@font-face {
+    font-family: 'RubikWetPaint';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../resources/fonts/RubikWetPaint-Regular.ttf');
+}
